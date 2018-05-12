@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jogos">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="372dp"
+        android:layout_height="300dp"
+        android:fontFamily="sans-serif"
+        android:text="Jogos"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="359dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Seleções"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="456dp" />
+</android.support.constraint.ConstraintLayout>
