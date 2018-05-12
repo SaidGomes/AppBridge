@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProxPartida">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="362dp"
+        android:layout_height="98dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Calendário"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="362dp"
+        android:layout_height="98dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Próximas Partidas"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:text="World Cup App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@android:drawable/ic_menu_share"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="7dp" />
